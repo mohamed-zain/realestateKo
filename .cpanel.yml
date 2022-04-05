@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/n0madxn95dv1/public_html/realestate.ko-sky.com
+    - /bin/cp -r * $DEPLOYPATH
